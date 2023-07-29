@@ -29,6 +29,8 @@ nnoremap <silent> H b
 nnoremap <silent> L w
 nnoremap <silent> K <S-{>
 nnoremap <silent> J <S-}>
+nnoremap <silent> <leader>l $
+nnoremap <silent> <leader>h 0
 
 "COMMAND SHORTCUT"
 nnoremap <silent> <leader>e :e<cr>
@@ -52,6 +54,6 @@ nnoremap <silent> [WINCMD]w <C-w>w
 nnoremap <silent> [WINCMD]b <C-w>b
 nnoremap <silent> [WINCMD]= <C-w>=
 nnoremap <silent> [WINCMD]v <C-w>v
-nnoremap <silent> [WINCMD]d :q
+nnoremap <silent> [WINCMD]d :q<cr>
 
 
